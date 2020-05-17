@@ -1,6 +1,7 @@
 ---
 layout: default
 title:  "GitHub Pages and Jekyll"
+description: "Setup this site"
 date: 2019-02-23
 ---
 
