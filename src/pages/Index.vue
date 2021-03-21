@@ -1,7 +1,7 @@
 <template>
   <Layout>
 
-    <g-image alt="GV image" src="~/favicon.png" width="135" />
+    <g-image alt="GV image" src="~/assets/welcome.svg" width="350" class="img-center"/>
 
     <h1>Hello, world!</h1>
 

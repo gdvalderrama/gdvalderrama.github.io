@@ -2,7 +2,7 @@
   <Layout>
 
     <div id="not-found">
-      <g-image alt="404 lost image" src="~/assets/404.svg" width="350" class="center"/>
+      <g-image alt="404 lost image" src="~/assets/404.svg" width="350" class="img-center"/>
 
       <h1>404!</h1>
 
@@ -24,12 +24,5 @@ export default {
 <style>
 #not-found h1, #not-found p {
   text-align: center;
-}
-
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
 }
 </style>
