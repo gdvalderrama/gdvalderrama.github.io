@@ -6,5 +6,7 @@
 
 module.exports = {
   siteName: 'Gridsome',
-  plugins: []
+  plugins: [],
+  siteUrl: 'https://gdvalderrama.github.io/personal-site',
+  pathPrefix: '/personal-site'
 }
