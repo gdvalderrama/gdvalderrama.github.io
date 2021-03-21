@@ -5,7 +5,7 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: 'Gridsome',
+  siteName: 'Guio Valderrama',
   plugins: [],
   siteUrl: 'https://gdvalderrama.github.io/personal-site',
   pathPrefix: '/personal-site'

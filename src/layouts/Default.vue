@@ -10,6 +10,12 @@
       </nav>
     </header>
     <slot/>
+    <footer class="footer">
+      <p class="home-links">
+        <a href="https://www.linkedin.com/in/guiomarvalderrama/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://github.com/gdvalderrama" target="_blank" rel="noopener">GitHub</a>
+      </p>
+    </footer>
   </div>
 </template>
 
@@ -46,5 +52,9 @@ body {
 
 .nav__link {
   margin-left: 20px;
+}
+
+.home-links a {
+  margin-right: 1rem;
 }
 </style>
