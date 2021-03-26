@@ -5,7 +5,6 @@
         <g-link to="/">{{ $static.metadata.siteName }}</g-link>
       </strong>
       <nav class="nav">
-        <g-link class="nav__link" to="/">Home</g-link>
         <g-link class="nav__link" to="/about/">About</g-link>
       </nav>
     </header>
@@ -17,6 +16,9 @@
         </a>
         <a href="https://github.com/gdvalderrama" target="_blank" rel="noopener">
           <font-awesome :icon="['fab', 'github']" color="#24292e" size="lg"/>
+        </a>
+        <a href="https://medium.com/@guival4" target="_blank" rel="noopener">
+          <font-awesome :icon="['fab', 'medium']" color="#000" size="lg"/>
         </a>
       </p>
     </footer>
