@@ -12,8 +12,12 @@
     <slot/>
     <footer class="footer">
       <p class="home-links">
-        <a href="https://www.linkedin.com/in/guiomarvalderrama/" target="_blank" rel="noopener">LinkedIn</a>
-        <a href="https://github.com/gdvalderrama" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/guiomarvalderrama/" target="_blank" rel="noopener">
+          <font-awesome :icon="['fab', 'linkedin']" color="#2867B2" size="lg"/>
+        </a>
+        <a href="https://github.com/gdvalderrama" target="_blank" rel="noopener">
+          <font-awesome :icon="['fab', 'github']" color="#24292e" size="lg"/>
+        </a>
       </p>
     </footer>
   </div>
