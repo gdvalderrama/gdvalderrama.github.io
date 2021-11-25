@@ -1,15 +1,17 @@
 <template>
   <Layout>
-    <h1>Pokemon</h1>
-    <button @click="getPokemon">Get a random Pokemon!</button>
-    <div v-if="show">
-      <p>Yout got {{ pokemon.name }}!</p>
-      <img :src="pokemon.sprites.front_default">
-      <img :src="pokemon.sprites.back_default">
-    </div>
-    <div v-if="error">
-      <p>{{ error }}</p>
-    </div>
+    <v-container>
+      <h1>Pokemon</h1>
+      <v-btn @click="getPokemon">Get a random Pokemon!</v-btn>
+      <div v-if="show">
+        <v-card-text>Yout got {{ pokemon.name }}!</v-card-text>
+        <img :src="pokemon.sprites.front_default">
+        <img :src="pokemon.sprites.back_default">
+      </div>
+      <v-alert type="error" v-if="error">
+        <p>{{ error }}</p>
+      </v-alert>
+    </v-container>
   </Layout>
 </template>
 
