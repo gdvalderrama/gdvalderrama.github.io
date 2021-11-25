@@ -43,6 +43,7 @@
       icons: [
         {'image': 'fab fa-linkedin', 'url': 'https://www.linkedin.com/in/guiomarvalderrama/'},
         {'image': 'fab fa-github', 'url': 'https://github.com/gdvalderrama'},
+        {'image': 'fab fa-stack-overflow', 'url': 'https://stackoverflow.com/users/3325322/gdvalderrama'},
         {'image': 'fab fa-medium', 'url': 'https://medium.com/@guival4'},
       ],
     }),
