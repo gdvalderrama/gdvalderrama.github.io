@@ -1,15 +1,12 @@
 <template>
   <Layout>
-
-    <div id="not-found">
-      <g-image alt="404 lost image" src="~/assets/404.svg" width="350" class="img-center"/>
-
-      <h1>404!</h1>
-
-      <p>
-      It looks like you're lost.
-      </p>
-    </div>
+    <v-container>
+      <div id="not-found">
+        <g-image alt="404 lost image" src="~/assets/404.svg" width="350" class="img-center"/>
+        <h1>404!</h1>
+        <v-card-text>It looks like you're lost.</v-card-text>
+      </div>
+    </v-container>
   </Layout>
 </template>
 
@@ -20,9 +17,3 @@ export default {
   }
 }
 </script>
-
-<style>
-#not-found h1, #not-found p {
-  text-align: center;
-}
-</style>
