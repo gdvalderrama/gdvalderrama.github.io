@@ -1,12 +1,12 @@
-Personal site to test Gridsome.
-Can be seen at https://guiomar.xyz/personal-site/
+Site to test Gridsome.
 
-# Dev with hot reload
+Can be seen live at https://guiomar.xyz/personal-site/
 
-`gridsome develop`
+## Deploy
 
-# Deploy
+Build and deploy to GitHub Pages on new releases.
+Automated with GitHub Actions.
 
-`npm run deploy`
+## Dev environment
 
-Will automatically also run `npm run deploy` as defined in `package.json`.
+Run with hot reload `gridsome develop`.
