@@ -22,7 +22,7 @@
     <v-footer dark padless>
       <v-card tile width="100%" class="blue-grey darken-4 white--text text-center">
         <v-card-text>
-          <v-btn v-for="icon in icons" :key="icon" class="mx-4 white--text" icon :href="icon.url" target="_blank">
+          <v-btn v-for="icon in icons" :key="icon.image" class="mx-4 white--text" icon :href="icon.url" target="_blank">
             <v-icon>{{ icon.image }}</v-icon>
           </v-btn>
         </v-card-text>
