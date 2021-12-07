@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <v-container>
-      <div class="d-flex">
+      <div class="d-flex-row">
         <v-card class="ma-sm-5 xs-sm-6" shaped>
           <v-img height="500px" :src="$page.blogPost.headerImage"> </v-img>
 
