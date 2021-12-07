@@ -6,8 +6,7 @@
 
 module.exports = {
   siteName: 'Guio Valderrama',
-  siteUrl: 'https://guiomar.xyz/personal-site',
-  pathPrefix: '/personal-site',
+  siteUrl: 'https://guiomar.xyz',
   plugins: [
     {
       use: "@gridsome/source-filesystem",
@@ -23,6 +22,6 @@ module.exports = {
     },
   ],
   templates: {
-    BlogPost: '/personal-site/blog/:year/:month/:title',
+    BlogPost: '/blog/:year/:month/:title',
   },
 }

@@ -1,6 +1,6 @@
 Site to test Gridsome and Vuetify.
 
-Can be seen live at https://guiomar.xyz/personal-site/
+Can be seen live at https://guiomar.xyz/
 
 ## Deploy
 
