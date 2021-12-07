@@ -6,7 +6,7 @@
 
 module.exports = {
   siteName: 'Guio Valderrama',
-  siteUrl: 'https://gdvalderrama.github.io/personal-site',
+  siteUrl: 'https://guiomar.xyz/personal-site',
   pathPrefix: '/personal-site',
   plugins: [
     {

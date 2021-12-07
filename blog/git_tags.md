@@ -23,6 +23,8 @@ Delete a local tag `git tag -d 0.0.1`.
 
 Delete a remote tag `git push --delete origin 0.0.1`.
 
+List tags `git tag -l`.
+
 ## Creating a release
 
 From the GitHub interface, navigate to the code tab, here we can see the repo tags.
