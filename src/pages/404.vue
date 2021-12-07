@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <v-container>
+    <v-container class="text-center">
       <div id="not-found">
         <g-image alt="404 lost image" src="~/assets/404.svg" width="350" class="img-center"/>
         <h1>404!</h1>
