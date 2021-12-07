@@ -9,6 +9,7 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { config, library } from '@fortawesome/fontawesome-svg-core'
 import { faGithub, faLinkedin, faMedium } from '@fortawesome/free-brands-svg-icons'
 import { fas } from '@fortawesome/free-solid-svg-icons'
+import colors from 'vuetify/lib/util/colors'
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
@@ -30,6 +31,19 @@ export default function (Vue, { appOptions, head }) {
     icons: {
       iconfont: 'faSvg',
     },
+    theme: {
+      themes: {
+        light: {
+          primary: colors.blue.darken2,
+          secondary: colors.grey.darken1,
+          accent: colors.shades.black,
+          error: colors.red.accent3,
+        },
+        dark: {
+          primary: colors.blue.lighten3,
+        },
+      }
+    }
   } //opts includes, vuetify themes, icons, etc.
   Vue.use(Vuetify)
 

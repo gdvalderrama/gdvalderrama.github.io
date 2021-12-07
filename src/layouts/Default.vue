@@ -1,7 +1,7 @@
 <template>
   <v-app>
 
-    <v-app-bar color="blue-grey darken-4" dark app>
+    <v-app-bar dark app>
       <v-toolbar-title class="headline">
         <g-link to="/">
           <v-avatar :tile="true">
@@ -10,14 +10,19 @@
         </g-link>
       </v-toolbar-title>
       <v-spacer></v-spacer>
+      <v-btn to="/blog/">
+        <span class="mr-2">Blog</span>
+      </v-btn>
       <v-btn to="/pokemon/">
         <span class="mr-2">Get Pokemon</span>
       </v-btn>
     </v-app-bar>
 
-    <v-container fill-height class="text-center">
-      <slot />
-    </v-container>
+    <v-main>
+      <v-container fluid fill-height>
+        <slot />
+      </v-container>
+    </v-main>
 
     <v-footer dark padless>
       <v-card tile width="100%" class="blue-grey darken-4 white--text text-center">
@@ -57,6 +62,3 @@ query {
   }
 }
 </static-query>
-
-<style>
-</style>

@@ -6,7 +6,23 @@
 
 module.exports = {
   siteName: 'Guio Valderrama',
-  plugins: [],
   siteUrl: 'https://gdvalderrama.github.io/personal-site',
-  pathPrefix: '/personal-site'
+  pathPrefix: '/personal-site',
+  plugins: [
+    {
+      use: "@gridsome/source-filesystem",
+      options: {
+        path: "./blog/**/*.md",
+        typeName: "BlogPost",
+        resolveAbsolutePaths: true,
+        remark: {
+          externalLinksTarget: "_blank",
+          externalLinksRel: ["nofollow", "noopener", "noreferrer"]
+        }
+      }
+    },
+  ],
+  templates: {
+    BlogPost: '/blog/:year/:month/:title',
+  },
 }

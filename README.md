@@ -1,4 +1,4 @@
-Site to test Gridsome.
+Site to test Gridsome and Vuetify.
 
 Can be seen live at https://guiomar.xyz/personal-site/
 
