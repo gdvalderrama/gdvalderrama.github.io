@@ -33,6 +33,7 @@
       <div class="text-center">
         <Pager
           linkClass="v-btn v-btn--contained v-btn--fab v-btn--round theme--dark v-size--small primary mx-1"
+          activeLinkClass="accent"
           :info="$page.blogPosts.pageInfo"
         />
       </div>
