@@ -23,6 +23,6 @@ module.exports = {
     },
   ],
   templates: {
-    BlogPost: '/blog/:year/:month/:title',
+    BlogPost: '/personal-site/blog/:year/:month/:title',
   },
 }
