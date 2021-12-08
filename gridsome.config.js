@@ -20,6 +20,12 @@ module.exports = {
         }
       }
     },
+    {
+      use: '@gridsome/plugin-google-analytics',
+      options: {
+        id: 'UA-55840805-2'
+      }
+    }
   ],
   templates: {
     BlogPost: '/blog/:year/:month/:title',
