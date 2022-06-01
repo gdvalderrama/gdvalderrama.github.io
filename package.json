@@ -15,7 +15,7 @@
     "axios": "^0.24.0",
     "gh-pages": "^3.2.3",
     "gridsome": "^0.7.23",
-    "sharp": "^0.29.3",
+    "sharp": "^0.30.5",
     "vuetify": "^2.6.1"
   },
   "devDependencies": {
