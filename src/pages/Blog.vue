@@ -5,14 +5,14 @@
         <v-card
           shaped
           class="ma-sm-2 my-5"
-          max-width="375"
+          max-width="370"
           v-for="item in $page.blogPosts.edges"
           :key="item.node.id"
           :href="item.node.path"
         >
           <v-img height="200px" :src="item.node.headerImage"></v-img>
 
-          <v-card-title class="primary--text justify-center font-weight-bold display-1">
+          <v-card-title class="primary--text justify-center font-weight-bold display-1" style="word-break: break-word;">
             {{ item.node.title }}
           </v-card-title>
 
