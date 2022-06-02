@@ -12,16 +12,16 @@
     "@gridsome/plugin-google-analytics": "^0.1.2",
     "@gridsome/source-filesystem": "^0.6.2",
     "@gridsome/transformer-remark": "^0.6.4",
-    "axios": "^0.24.0",
-    "gh-pages": "^3.2.3",
+    "axios": "^0.27.2",
+    "gh-pages": "^4.0.0",
     "gridsome": "^0.7.23",
-    "sharp": "^0.30.5",
-    "vuetify": "^2.6.1"
+    "sharp": "^0.30.6",
+    "vuetify": "^2.6.6"
   },
   "devDependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.36",
-    "@fortawesome/free-brands-svg-icons": "^5.15.4",
-    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fortawesome/fontawesome-svg-core": "^6.1.1",
+    "@fortawesome/free-brands-svg-icons": "^6.1.1",
+    "@fortawesome/free-solid-svg-icons": "^6.1.1",
     "@fortawesome/vue-fontawesome": "^2.0.6",
     "webpack-node-externals": "^3.0.0"
   }
