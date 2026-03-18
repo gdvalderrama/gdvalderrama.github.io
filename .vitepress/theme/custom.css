@@ -1,0 +1,20 @@
+:root {
+  --vp-c-brand: #1976d2;
+  --vp-c-brand-light: #42a5f5;
+  --vp-c-brand-lighter: #90caf9;
+  --vp-c-brand-dark: #1565c0;
+  --vp-c-brand-darker: #0d47a1;
+}
+
+.vp-doc h1 {
+  margin-bottom: 24px;
+}
+
+/* Replicating some of the card styles from Vuetify */
+.blog-card {
+  transition: transform 0.2s;
+}
+
+.blog-card:hover {
+  transform: translateY(-5px);
+}
