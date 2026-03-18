@@ -4,25 +4,23 @@
   "scripts": {
     "develop": "gridsome develop",
     "explore": "gridsome explore",
-    "build": "gridsome build",
+    "build": "vitepress build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "dev": "vitepress dev",
+    "preview": "vitepress preview"
   },
   "dependencies": {
-    "@gridsome/plugin-google-analytics": "^0.1.2",
-    "@gridsome/source-filesystem": "^0.6.2",
-    "@gridsome/transformer-remark": "^0.6.4",
-    "axios": "^0.27.2",
-    "gh-pages": "^4.0.0",
-    "gridsome": "^0.7.23",
-    "sharp": "^0.30.6",
-    "vuetify": "^2.6.6"
+    "gh-pages": "^6.3.0",
+    "node-addon-api": "^8.6.0",
+    "node-gyp": "^12.2.0",
+    "sharp": "^0.34.5"
   },
   "devDependencies": {
-    "@fortawesome/fontawesome-svg-core": "^6.1.1",
-    "@fortawesome/free-brands-svg-icons": "^6.1.1",
-    "@fortawesome/free-solid-svg-icons": "^6.1.1",
-    "@fortawesome/vue-fontawesome": "^2.0.6",
+    "axios": "^1.13.6",
+    "vitepress": "^1.6.4",
+    "vue": "^3.5.30",
     "webpack-node-externals": "^3.0.0"
-  }
+  },
+  "type": "module"
 }
